@@ -1,0 +1,408 @@
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+header {
+	margin-top: 0px;
+	width: 100%;
+	height: 150px;
+	background-color: black;
+	position: fixed;
+	
+
+}
+.top-page {
+
+	width: 100%;
+	height: 150px;
+	background-color: black;
+	position: fixed;
+	margin-top: 0px;
+}
+.info-page {
+
+	
+	width: 100%;
+	height: 100px;
+	color: gray;
+	margin-top: 20px;
+
+}
+.logo-page {
+
+	margin-left: 250px;
+	margin-top: 0px;
+	width: 20%;
+	height: 80px;
+	float: left;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+}
+
+
+.main-menu {
+    float: left;
+    overflow: auto;
+    width: 100%;
+    margin-left: 0px;
+    margin-left: 250px;
+
+}
+
+.main-menu li {
+    float: left;
+    cursor: pointer;
+
+
+
+}
+
+.main-menu li {
+    display: block;
+    height: 25px;
+    margin: 15 15px;
+    padding: 0 15px;
+    color: white;
+    font-family: RobotoRegular;
+    
+
+  
+}
+
+.main-menu li:hover,
+.main-menu li:focus,
+.main-menu li.navbar {
+    border-bottom: 6px solid #ff8000; 
+}
+
+.navbar {
+
+	
+	width: 60px;
+	
+}
+
+body {
+
+	font-size: 16px;
+
+}
+main {
+
+	padding-top: 150px;
+	height: 2420px;
+	
+
+
+}
+.img-section {
+ 	background-image: url(palladium.jpg);
+ 	width: 100%;
+ 	height: 650px;
+	background-size: 100% 600px;
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	
+	
+	
+	
+}
+
+span {
+
+	margin-top: 400px;
+	margin-left: 250px;
+}
+.float-span {
+
+	width: 50%;
+	height: 150px;
+	margin-top: 400px;
+	margin-left: 250px;
+	background-color: white;
+	
+
+}
+
+
+h2 {
+
+	margin-top: 30px;
+	margin-left: 30px;
+	color: #ff8000;
+}
+.left-date {
+	margin-top: 20px;
+	margin-left: 10px;
+	width: 200px;
+	float: left;
+
+}
+.right-date {
+	margin-top: 20px;
+	margin-left: 200px;
+	width: 200px;
+	float: left;
+	
+}
+.ambassador-room {
+
+	float: left;
+	margin-top: 20px;
+	width: 49%;
+	height: 250px;
+
+}
+.ambassador-text {
+	float: right;
+	margin-top: 0px;
+	width: 49%;
+	height: 250px;
+
+}
+.ambassador-h1 {
+	margin-left: 0px;
+	color: #ff8000;
+}
+.ambassador-p {
+	margin-left: 0px;
+	
+}
+
+.romance-room {
+	float: right;
+	margin-top: 50px;
+	width: 49%;
+	height: 250px;
+}
+.romance-text {
+	float: left;
+	margin-top: 50px;
+	width: 49%;
+	height: 250px;
+}
+.romance-h1 {
+	margin-left: 30px;
+	color: #ff8000;
+}
+.romance-p {
+	margin-left: 30px;
+}
+.testimonials {
+	width: 100%;
+	height: 300px;
+	background-color: #e1e1d0;
+	float: left;
+}
+
+.testimonials-h1 {
+	margin-left: 44%;
+	margin-top: 20px;
+	color: gray;
+}
+.testimonials-people-1 {
+	float: left;
+	margin-top: 10px;
+	margin-left: 250px;
+	width: 25%;
+	height: 200px;
+	
+}
+.joe-b-h3 {
+	margin-left: 60px;
+	font-size: 20px;
+	font-family: RobotoRegular;
+	color: gray;
+	margin-top: 20px;
+
+}
+.joe-b-p {
+	 font-family: RobotoRegular;
+	 color: gray;
+}
+
+.testimonials-people-2 {
+float: right;
+margin-top: 10px;
+margin-right: 200px;
+width: 25%;
+height: 200px;
+
+}
+.rik-d-h3 {
+	margin-left: 60px;
+	font-size: 20px;
+	font-family: RobotoRegular;
+	color: gray;
+	margin-top: 20px;
+}
+.rik-d-p {
+	font-family: RobotoRegular;
+	 color: gray;
+
+}
+.contact {
+	width: 100%;
+	height: 500px;
+	float: left;
+	background-image: url(villa.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 500px;
+
+}
+.contact-article {
+	margin-top: 200px;
+	margin-left: 100px;
+	margin-right: 100px;
+	width: 85%;
+	height: 250px;
+	background-color: #ff8000;
+	
+}
+.contact-article-div {
+
+	float: left;
+	margin-left: 4%;
+	width: 28%;
+	height: 250px;
+}
+.contact-h1 {
+
+	margin-top: 20px;
+	margin-left: 40px;
+	color: white;
+	font-size: 26px;
+	font-family: RobotoRegular;
+}
+.contact-h3 {
+	margin-top: 20px;
+	margin-left: 40px;
+	color: white;
+	font-size: 22px;
+	font-family: RobotoRegular;
+
+}
+.write-to-us {
+	float: left;
+	margin-left: 4%;
+	width: 28%;
+	height: 250px;
+}
+.contact-item-input {
+    width: 97%;
+    height: 14px;
+    margin-top: 5px;
+    padding: 5px;
+}
+.contact-item-textarea {
+    height: 80px;
+    resize: none;
+}
+.contact-item-button {
+    float: right;
+    width: 80px;
+    height: 22px;
+    margin-top: 5px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.write-h1 {
+	margin-top: 20px;
+	color: white;
+	font-size: 26px;
+	font-family: RobotoRegular;
+
+}
+.rate-us {
+	float: left;
+	margin-left: 6%;
+	width: 28%;
+	height: 250px;
+
+}
+.rate-us-h1 {
+	margin-top: 20px;
+	color: white;
+	font-size: 26px;
+	font-family: RobotoRegular;
+
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+.our-place {
+
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+.maps {
+	width: 100%;
+	height: 400px;
+}
+footer {
+	width: 100%;
+	height: 80px;
+	margin-bottom: 0px;
+	background-color: black;
+	position: absolute;
+}
+.footer-copyright {
+
+	width: 70%;
+	height: 50px;
+	margin-top: 28px;
+	margin-left: 80px;
+
+}
+.span-1 {
+	color: gray;
+	font-size: 20px;
+	margin-left: 20px;
+}
+.span-2 {
+	color: gray;
+	font-size: 20px;
+	margin-left: 20px;
+}
+
